@@ -35,9 +35,13 @@
     display: flex;
     gap: 40px;
     justify-content: space-around;
+    overflow-x: auto;
 }
 .produtos li{
     min-width: 280px;
+    flex: 1;
+    max-width: 400px;
+    flex-basis: 100%;
 }
 
 .produtos img{
@@ -51,8 +55,13 @@
         flex-wrap: wrap;
         
     }
+    .produtos li {
+        flex: 1;
+        max-width: 300px;
+        flex-basis: 100%;
+    }
     .compra h2{
-        font-size: 32px;
+        font-size: 38px;
     }
     .compra h2{
         margin-bottom: 20px;
