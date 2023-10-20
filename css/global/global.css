@@ -30,3 +30,22 @@ img{
     font-family: poppins;
     font-weight: 600;
 }
+.container-h2 h2{
+    color: black;
+    font-size: 48px;
+    font-family: poppins;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.container-h2{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container-h2 span{
+    color: #9b3bec;
+}
+
+@media(max-width: 800px){
+    
+}

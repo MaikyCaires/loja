@@ -48,6 +48,7 @@
     border-radius: 15px;
     border: none;
     margin-bottom: 16px;
+    object-fit: cover;
 }
 @media(max-width: 800px){
     .produtos{

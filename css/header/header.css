@@ -47,6 +47,24 @@
 .botao:hover{
     background-color:#cd6ef6;
 }
+/* menu burger */
+.burger{
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+    display: none;
+    
+
+}
+.burger::before, .burger::after{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin-top: 5px;
+}
 
 
 @media (max-width: 800px){
@@ -67,4 +85,5 @@
     .menu-flex ul li a::after{
         display: none;
     }
+    
 }
