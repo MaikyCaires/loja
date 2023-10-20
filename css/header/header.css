@@ -57,16 +57,6 @@
     
 
 }
-.burger::before, .burger::after{
-    content: " ";
-    display: block;
-    width: 30px;
-    height: 3px;
-    background-color: #fff;
-    margin-top: 5px;
-}
-
-
 @media (max-width: 800px){
     .menu-flex ul li a{
         padding: 15px 30px;
