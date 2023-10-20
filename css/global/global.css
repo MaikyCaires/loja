@@ -45,4 +45,11 @@ img{
 .container-h2 span{
     color: #9b3bec;
 }
-
+.mac h3, .span-mac{
+    margin-left: 45px;
+}
+h1{
+    font-size: 38px;
+    font-family: poppins;
+    font-weight: 600;
+}
