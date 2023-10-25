@@ -1,0 +1,44 @@
+.termos{
+    background-color: rgb(14, 14, 14);
+    padding: 20px 0px;
+}
+.titulo-termos p{
+        font-family: poppins;
+        font-size: 22px;
+        color: #b2b2b2;
+        margin-bottom: 16px;
+        text-transform: uppercase;
+}
+.titulo-termos h2{
+        font-family: poppins;
+        font-size: 52px;
+        color: white;
+        margin-bottom: 16px;
+        text-transform: uppercase;
+}
+.titulo-termos h2 span{
+    color: #9b3bec
+}
+.item-codicao h2{
+    color: black;
+    font-family: poppins;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.item-codicao p{
+    color: black;
+    font-size: 18px;
+    font-family: roboto;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+@media(max-width: 800px){
+    .titulo-termos h2{
+        font-size: 38px;
+    }
+    .titulo-termos p{
+        font-size: 16px;
+    }
+}
